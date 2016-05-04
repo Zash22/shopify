@@ -1,6 +1,6 @@
 
             <ul class="nav navbar-nav">
-                <li><a href="/preferences">Preferences</a></li>
+                <li><a href="/preference">Preferences</a></li>
             </ul>
             <ul class="nav navbar-nav">
                 <li><a href="/order">Orders</a></li>

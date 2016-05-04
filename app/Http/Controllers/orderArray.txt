@@ -1,0 +1,382 @@
+stdClass Object
+(
+    [order] => stdClass Object
+        (
+            [id] => 2957269825
+            [email] => test@test.com
+            [closed_at] =>
+            [created_at] => 2016-04-18T10:19:18-04:00
+            [updated_at] => 2016-04-18T10:19:18-04:00
+            [number] => 12
+            [note] =>
+            [token] => b5d82f107c93aa399167a6d4455459e0
+            [gateway] => Money Order
+            [test] =>
+            [total_price] => 173.12
+            [subtotal_price] => 150.00
+            [total_weight] => 500
+            [total_tax] => 21.00
+            [taxes_included] =>
+            [currency] => ZAR
+            [financial_status] => pending
+            [confirmed] => 1
+            [total_discounts] => 0.00
+            [total_line_items_price] => 150.00
+            [cart_token] => 4a0f7f2d1d16e7921ecdd77130d2d48b
+            [buyer_accepts_marketing] =>
+            [name] => #1012
+            [referring_site] =>
+            [landing_site] => /
+            [cancelled_at] =>
+            [cancel_reason] =>
+            [total_price_usd] => 11.78
+            [checkout_token] => 0a6baa47394fa838c86e6bd9fd72b290
+            [reference] =>
+            [user_id] =>
+            [location_id] =>
+            [source_identifier] =>
+            [source_url] =>
+            [processed_at] => 2016-04-18T10:19:18-04:00
+            [device_id] =>
+            [browser_ip] =>
+            [landing_site_ref] =>
+            [order_number] => 1012
+            [discount_codes] => Array
+                (
+                )
+
+            [note_attributes] => Array
+                (
+                )
+
+            [payment_gateway_names] => Array
+                (
+                    [0] => Money Order
+                )
+
+            [processing_method] => manual
+            [checkout_id] => 7477002625
+            [source_name] => web
+            [fulfillment_status] =>
+            [tax_lines] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [title] => VAT
+                            [price] => 21.00
+                            [rate] => 0.14
+                        )
+
+                )
+
+            [tags] =>
+            [contact_email] => test@test.com
+            [order_status_url] => https://checkout.shopify.com/10909728/checkouts/0a6baa47394fa838c86e6bd9fd72b290/thank_you_token?key=b01d20297f3ce1e5e0727821919eac71
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 5177002945
+                            [variant_id] => 10722030593
+                            [title] => Short Sleeve T-Shirt
+                            [quantity] => 1
+                            [price] => 150.00
+                            [grams] => 500
+                            [sku] => 01
+                            [variant_title] =>
+                            [vendor] => MDS Clothing
+                            [fulfillment_service] => manual
+                            [product_id] => 3671390657
+                            [requires_shipping] => 1
+                            [taxable] => 1
+                            [gift_card] =>
+                            [name] => Short Sleeve T-Shirt
+                            [variant_inventory_management] =>
+                            [properties] => Array
+                                (
+                                )
+
+                            [product_exists] => 1
+                            [fulfillable_quantity] => 1
+                            [total_discount] => 0.00
+                            [fulfillment_status] =>
+                            [tax_lines] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [title] => VAT
+                                            [price] => 21.00
+                                            [rate] => 0.14
+                                        )
+
+                                )
+
+                            [origin_location] => stdClass Object
+                                (
+                                    [id] => 696680065
+                                    [country_code] => ZA
+                                    [province_code] => GT
+                                    [name] => MDS Collivery
+                                    [address1] => 58C Webber St
+                                    [address2] =>
+                                    [city] => Selby
+                                    [zip] => 2001
+                                )
+
+                            [destination_location] => stdClass Object
+                                (
+                                    [id] => 1117847553
+                                    [country_code] => ZA
+                                    [province_code] => WC
+                                    [name] => Teser Lester
+                                    [address1] => Tester st
+                                    [address2] => 5
+                                    [city] => JHB
+                                    [zip] => 0
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => 2531170753
+                            [title] => jkhih
+                            [price] => 2.12
+                            [code] => Road Freight Express
+                            [source] => Second MDS
+                            [phone] =>
+                            [carrier_identifier] => 6988f71b8cfb0d166e15b76f655b1a5b
+                            [tax_lines] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [billing_address] => stdClass Object
+                (
+                    [first_name] => Teser
+                    [address1] => Tester st
+                    [phone] =>
+                    [city] => JHB
+                    [zip] => 0
+                    [province] => Western Cape
+                    [country] => South Africa
+                    [last_name] => Lester
+                    [address2] => 5
+                    [company] =>
+                    [latitude] =>
+                    [longitude] =>
+                    [name] => Teser Lester
+                    [country_code] => ZA
+                    [province_code] => WC
+                )
+
+            [shipping_address] => stdClass Object
+                (
+                    [first_name] => Teser
+                    [address1] => Tester st
+                    [phone] =>
+                    [city] => JHB
+                    [zip] => 0
+                    [province] => Western Cape
+                    [country] => South Africa
+                    [last_name] => Lester
+                    [address2] => 5
+                    [company] =>
+                    [latitude] =>
+                    [longitude] =>
+                    [name] => Teser Lester
+                    [country_code] => ZA
+                    [province_code] => WC
+                )
+
+            [fulfillments] => Array
+                (
+                )
+
+            [client_details] => stdClass Object
+                (
+                    [browser_ip] => 105.208.141.187
+                    [accept_language] => en-GB,en-US;q=0.8,en;q=0.6
+                    [user_agent] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+                    [session_hash] => 1d92566cd427635ee4f7eee9fd289180
+                    [browser_width] => 1351
+                    [browser_height] => 654
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [customer] => stdClass Object
+                (
+                    [id] => 2641219457
+                    [email] => test@test.com
+                    [accepts_marketing] =>
+                    [created_at] => 2016-03-29T10:19:30-04:00
+                    [updated_at] => 2016-04-18T10:19:18-04:00
+                    [first_name] => Teser
+                    [last_name] => Lester
+                    [orders_count] => 3
+                    [state] => disabled
+                    [total_spent] => 0.00
+                    [last_order_id] => 2957269825
+                    [note] =>
+                    [verified_email] => 1
+                    [multipass_identifier] =>
+                    [tax_exempt] =>
+                    [tags] =>
+                    [last_order_name] => #1012
+                    [default_address] => stdClass Object
+                        (
+                            [id] => 2963389377
+                            [first_name] => Teser
+                            [last_name] => Lester
+                            [company] =>
+                            [address1] => Tester st
+                            [address2] => 5
+                            [city] => JHB
+                            [province] => Western Cape
+                            [country] => South Africa
+                            [zip] => 0
+                            [phone] =>
+                            [name] => Teser Lester
+                            [province_code] => WC
+                            [country_code] => ZA
+                            [country_name] => South Africa
+                            [default] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+
+{
+    "rate": {
+        "origin": {
+            "country": "ZA",
+            "postal_code": "2001",
+            "province": "GT",
+            "city": "Selby",
+            "name": null,
+            "address1": "58C Webber St",
+            "address2": "",
+            "address3": null,
+            "phone": "0861637000",
+            "fax": null,
+            "address_type": null,
+            "company_name": "MDS Collivery"
+        },
+        "destination": {
+            "country": "ZA",
+            "postal_code": "59635",
+            "province": "NL",
+            "city": "jhb",
+            "name": "656565 65656",
+            "address1": "65656",
+            "address2": "",
+            "address3": null,
+            "phone": null,
+            "fax": null,
+            "address_type": null,
+            "company_name": null
+        },
+        "items": [
+            {
+                "name": "Short Sleeve T-Shirt",
+                "sku": "01",
+                "quantity": 1,
+                "grams": 500,
+                "price": 15000,
+                "vendor": "MDS Clothing",
+                "requires_shipping": true,
+                "taxable": true,
+                "fulfillment_service": "manual",
+                "properties": null,
+                "product_id": 3671390657,
+                "variant_id": 10722030593
+            }
+        ],
+        "currency": "ZAR"
+    }
+}
+200 OK
+Summary
+Headers
+Raw
+Binary
+2328 bytes text/html; charset=UTF-8
+
+Array
+(
+    [0] => Array
+        (
+            [rate] => Array
+                (
+                    [origin] => Array
+                        (
+                            [country] => ZA
+                            [postal_code] => 2001
+                            [province] => GT
+                            [city] => Selby
+                            [name] =>
+                            [address1] => 58C Webber St
+                            [address2] =>
+                            [address3] =>
+                            [phone] => 0861637000
+                            [fax] =>
+                            [address_type] =>
+                            [company_name] => MDS Collivery
+                        )
+
+                    [destination] => Array
+                        (
+                            [country] => ZA
+                            [postal_code] => 59635
+                            [province] => NL
+                            [city] => jhb
+                            [name] => 656565 65656
+                            [address1] => 65656
+                            [address2] =>
+                            [address3] =>
+                            [phone] =>
+                            [fax] =>
+                            [address_type] =>
+                            [company_name] =>
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Short Sleeve T-Shirt
+                                    [sku] => 01
+                                    [quantity] => 1
+                                    [grams] => 500
+                                    [price] => 15000
+                                    [vendor] => MDS Clothing
+                                    [requires_shipping] => 1
+                                    [taxable] => 1
+                                    [fulfillment_service] => manual
+                                    [properties] =>
+                                    [product_id] => 3671390657
+                                    [variant_id] => 10722030593
+                                )
+
+                        )
+
+                    [currency] => ZAR
+                )
+
+        )
+
+)

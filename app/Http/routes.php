@@ -11,25 +11,23 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
-
 
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController'
 ]);
 
-Route::get('/demo', ['as' => 'demo', 'uses' => 'SoapController@demo']);
-Route::get('/api', ['as' => 'api', 'uses' => 'APIController@demo']);
-Route::get('/json', ['as' => 'json', 'uses' => 'JSONController@demo']);
+Route::get('/carrier', ['as' => 'carrier', 'uses' => 'CarrierController@index']);
+Route::post('/uninstall', ['as' => 'uninstall', 'uses' => 'Auth\AuthController@uninstall']);
+Route::resource('preference', 'PreferenceController');
+Route::get('/edit_carrier', ['as' => 'edit_carrier', 'uses' => 'CarrierController@edit_carrier']);
+Route::resource('carrier', 'CarrierController');
+Route::resource('order', 'OrderController');
+
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -43,11 +41,10 @@ Route::get('/json', ['as' => 'json', 'uses' => 'JSONController@demo']);
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
-    Route::auth();
 
-    Route::resource('shopify', 'ShopifyController');
-    Route::resource('preferences', 'PreferencesController');
+    Route::auth();
+    Route::get('/', 'Auth\AuthController@access');
+    Route::get('/authCallBack', 'Auth\AuthController@authCallback');
     Route::get('/home', 'HomeController@index');
 
 });

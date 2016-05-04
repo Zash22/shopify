@@ -147,15 +147,27 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Artisaninweb\SoapWrapper\ServiceProvider::class,
-//
+
+
+
+
         /*
          * Application Service Providers...
          */
+        Collective\Html\HtmlServiceProvider::class,
+
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Way\Generators\GeneratorsServiceProvider::class,
+        Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        RocketCode\Shopify\ShopifyServiceProvider::class,
+
+
+
+
 
     ],
 
@@ -202,7 +214,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-        'SoapWrapper' => Artisaninweb\SoapWrapper\Facades\SoapWrapper::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'Flash' => Laracasts\Flash\Flash::class,
 
     ],
 

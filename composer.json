@@ -7,10 +7,9 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "twbs/bootstrap": "^3.3",
-        "artisaninweb/laravel-soap": "0.2.*"
-
-
+        "laravelcollective/html": "^5.2",
+        "laracasts/flash": "^2.0",
+        "rocket-code/shopify": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -19,16 +18,19 @@
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*",
         "doctrine/dbal": "~2.3",
-        "mds/flash": "^1.0",
-        "laravelcollective/html": "~5.1",
+        "mds/collivery": "^0.0.4",
         "barryvdh/laravel-debugbar": "~2.0",
-        "filp/whoops": "~1.1"
+        "filp/whoops": "~1.1",
+        "xethron/migrations-generator": "dev-l5",
+        "way/generators": "dev-feature/laravel-five-stable",
+        "laracasts/generators": "^1.1"
+
     },
-
-
+    "minimum-stability": "dev",
     "autoload": {
         "classmap": [
             "database"
+
         ],
         "psr-4": {
             "App\\": "app/"
@@ -59,5 +61,11 @@
     },
     "config": {
         "preferred-install": "dist"
+    },
+    "repositories": {
+        "repo-name": {
+            "type": "git",
+            "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
+        }
     }
 }
